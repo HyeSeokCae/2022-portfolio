@@ -1,0 +1,42 @@
+.skills {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 11;
+}
+.progBox {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.progBox > p {
+  width: 100px;
+}
+.progBox > .progress {
+  width: 80%;
+  height: 50px;
+  transition: all 1.5s;
+  accent-color: grey;
+}
+.progress::-webkit-progress-value {
+  animation: change 1.5s forwards;
+}
+@keyframes change {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}

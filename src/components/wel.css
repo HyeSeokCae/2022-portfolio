@@ -1,0 +1,38 @@
+.welBox {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 200px;
+  background: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  animation: show 1.5s forwards;
+  animation-delay: 4s;
+  opacity: 0;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.welBox button {
+  width: 100px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  color: tomato;
+  cursor: pointer;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 200px;
+  }
+}

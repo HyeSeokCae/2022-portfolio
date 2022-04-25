@@ -1,0 +1,23 @@
+.transition-group {
+  position: relative;
+
+  max-height: 100%;
+}
+
+.change-enter {
+  opacity: 0;
+}
+
+.change-enter-active {
+  opacity: 1;
+  transition: all 2s;
+}
+
+.change-exit {
+  opacity: 1;
+}
+
+.change-exit-active {
+  opacity: 0;
+  display: none;
+}

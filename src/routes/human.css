@@ -1,0 +1,62 @@
+.humanBack {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: back 2.5s forwards;
+  cursor: help;
+}
+.humanBack > img {
+  position: absolute;
+}
+.humanBack > .glass {
+  animation: change 2s both;
+}
+.me {
+  animation: change2 1.5s forwards;
+  animation-delay: 2.5s;
+  opacity: 0;
+  transform: rotateY(-180deg);
+  cursor: grab;
+}
+@keyframes change {
+  0% {
+    width: 100%;
+    opacity: 1;
+  }
+  50% {
+    width: 10%;
+    opacity: 0;
+  }
+  95% {
+    width: 10%;
+    opacity: 1;
+  }
+  100% {
+    width: 0%;
+    opacity: 1;
+  }
+}
+@keyframes change2 {
+  0% {
+    opacity: 0;
+    transform: rotateY(-180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+@keyframes back {
+  0% {
+    background: #fff;
+  }
+
+  100% {
+    background: #232323;
+  }
+}

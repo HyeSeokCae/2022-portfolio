@@ -1,15 +1,64 @@
-div {
+.wrap {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.wrap > img {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  filter: blur(2px);
+}
+
+.emoji {
+  font-size: 1.5rem;
+  transform: translateY(-5px);
+  animation: upDown 1s ease-in infinite;
+  color: tomato;
+}
+.textBox {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  background: #232323;
-  font-weight: bolder;
+  text-align: center;
+  line-height: 3rem;
+  z-index: 11;
+}
+.textBox h1 {
   font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+.textBox span {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.textBox li {
+  color: white;
+  font-size: 1.25rem;
+}
+.textBox a {
+  text-decoration: none;
+}
+.textBox .start {
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+  color: white;
+  transition: all 0.5s;
+}
+.textBox .start:hover,
+.textBox .start:active {
+  color: tomato;
+  font-size: 1.5rem;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }

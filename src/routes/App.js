@@ -1,13 +1,17 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Home from "../routes/Home";
+import React from "react";
+import {BrowserRouter as Router} from "react-router-dom";
+import Transition from "./Transition";
+import {ThemeProvider} from "@material-ui/core/styles";
+import {unstable_createMuiStrictModeTheme} from "@material-ui/core/styles";
+const theme = unstable_createMuiStrictModeTheme();
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-      </Routes>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Transition />
+      </Router>
+    </ThemeProvider>
   );
 }
 

@@ -1,0 +1,40 @@
+.room1 {
+  width: 100%;
+  height: 100vh;
+  background: #232323;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+.room1 > .roombg {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  pointer-events: none;
+}
+.tecBlind {
+  width: 44%;
+  height: 60%;
+  position: absolute;
+  border-radius: 20px;
+  right: 0;
+  bottom: 175px;
+}
+.bookBlind {
+  width: 30%;
+  height: 20%;
+  position: absolute;
+  bottom: 115px;
+  left: 75px;
+  border-radius: 20px;
+}
+.bookBlind:hover {
+  box-shadow: 0 0 200px white;
+  cursor: help;
+}
+.tecBlind:hover {
+  box-shadow: 0 0 200px white;
+  cursor: help;
+}

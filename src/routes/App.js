@@ -8,7 +8,7 @@ const theme = unstable_createMuiStrictModeTheme();
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/2022-portfolio">
         <Transition />
       </Router>
     </ThemeProvider>

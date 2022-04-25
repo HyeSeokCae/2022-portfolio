@@ -1,11 +1,6 @@
 import React from "react";
 import {TransitionGroup, CSSTransition} from "react-transition-group";
-import {
-  Routes,
-  Route,
-  useLocation,
-  BrowserRouter as Router,
-} from "react-router-dom";
+import {Routes, Route, useLocation} from "react-router-dom";
 import Home from "../routes/Home";
 import DeskRoom from "../routes/DeskRoom";
 import HumanRoom from "../routes/HumanRoom";
@@ -19,15 +14,13 @@ const Transition = () => {
   return (
     <TransitionGroup className="transition-group">
       <CSSTransition key={location.pathname} classNames="change" timeout={2000}>
-        <Router>
-          <Routes location={location}>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/humanRoom" element={<HumanRoom />} />
-            <Route exact path="/deskRoom" element={<DeskRoom />} />
-            <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/finish" element={<Finish />} />
-          </Routes>
-        </Router>
+        <Routes location={location}>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/humanRoom" element={<HumanRoom />} />
+          <Route exact path="/deskRoom" element={<DeskRoom />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/finish" element={<Finish />} />
+        </Routes>
       </CSSTransition>
     </TransitionGroup>
   );

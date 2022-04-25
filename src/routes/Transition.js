@@ -3,9 +3,9 @@ import {TransitionGroup, CSSTransition} from "react-transition-group";
 import {Routes, Route, useLocation} from "react-router-dom";
 import Home from "../routes/Home";
 import DeskRoom from "../routes/DeskRoom";
-import HumanRoom from "../routesHumanRoom";
-import Contact from "../routesContact";
-import Finish from "../routesFinish";
+import HumanRoom from "../routes/HumanRoom";
+import Contact from "../routes/Contact";
+import Finish from "../routes/Finish";
 import "./app.css";
 
 const Transition = () => {

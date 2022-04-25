@@ -30,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://hyeseokcae.github.io/2022-portfolio/",
   "browserslist": {
     "production": [
       ">0.2%",

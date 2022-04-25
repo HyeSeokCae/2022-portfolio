@@ -1,11 +1,11 @@
-import React, {useRef} from "react";
+import React from "react";
 import {TransitionGroup, CSSTransition} from "react-transition-group";
 import {Routes, Route, useLocation} from "react-router-dom";
-import Home from "./Home";
-import DeskRoom from "./DeskRoom";
-import HumanRoom from "./HumanRoom";
-import Contact from "./Contact";
-import Finish from "./Finish";
+import Home from "../routes/Home";
+import DeskRoom from "../routes/DeskRoom";
+import HumanRoom from "../routesHumanRoom";
+import Contact from "../routesContact";
+import Finish from "../routesFinish";
 import "./app.css";
 
 const Transition = () => {

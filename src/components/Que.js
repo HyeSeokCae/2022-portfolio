@@ -1,5 +1,5 @@
 import React, {useState, useRef} from "react";
-import Tec from "./Tec";
+import Tec from "../components/Tec";
 import "./que.css";
 function Que() {
   const [password, setPassword] = useState("");

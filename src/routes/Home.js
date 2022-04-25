@@ -29,7 +29,7 @@ function Home() {
               <li>왼쪽부터 오른쪽으로...</li>
               <p className="emoji">↓</p>
             </ul>
-            <Link to="/human" onClick={AlertText}>
+            <Link to="/humanRoom" onClick={AlertText}>
               <p className="start">시작하기</p>
             </Link>
           </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65711e65.css",
-    "main.js": "/static/js/main.fe00c7f1.js",
+    "main.js": "/static/js/main.f07a2ad1.js",
     "static/media/bg.jpg": "/static/media/bg.ec2a56ba35de88d157e6.jpg",
     "static/media/laptop.jpg": "/static/media/laptop.7e919365a063c98c01f4.jpg",
     "static/media/marvel.jpg": "/static/media/marvel.50f94b969d2043653585.jpg",
@@ -13,10 +13,10 @@
     "static/media/eyeglass.png": "/static/media/eyeglass.e39f37d338e769b96ae5.png",
     "index.html": "/index.html",
     "main.65711e65.css.map": "/static/css/main.65711e65.css.map",
-    "main.fe00c7f1.js.map": "/static/js/main.fe00c7f1.js.map"
+    "main.f07a2ad1.js.map": "/static/js/main.f07a2ad1.js.map"
   },
   "entrypoints": [
     "static/css/main.65711e65.css",
-    "static/js/main.fe00c7f1.js"
+    "static/js/main.f07a2ad1.js"
   ]
 }

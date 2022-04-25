@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.65711e65.css",
-    "main.js": "/static/js/main.f07a2ad1.js",
-    "static/media/bg.jpg": "/static/media/bg.ec2a56ba35de88d157e6.jpg",
-    "static/media/laptop.jpg": "/static/media/laptop.7e919365a063c98c01f4.jpg",
-    "static/media/marvel.jpg": "/static/media/marvel.50f94b969d2043653585.jpg",
-    "static/media/pets.jpg": "/static/media/pets.d9191a70b370d6c2f80b.jpg",
-    "static/media/wanted-poster.png": "/static/media/wanted-poster.a9a0cba72514fcabdb75.png",
-    "static/media/me-re.png": "/static/media/me-re.584e2b13fb27981407cf.png",
-    "static/media/car.jpg": "/static/media/car.e03893d71552d32974d8.jpg",
-    "static/media/post.png": "/static/media/post.0e766346be57e7a9e0ef.png",
-    "static/media/eyeglass.png": "/static/media/eyeglass.e39f37d338e769b96ae5.png",
-    "index.html": "/index.html",
-    "main.65711e65.css.map": "/static/css/main.65711e65.css.map",
-    "main.f07a2ad1.js.map": "/static/js/main.f07a2ad1.js.map"
+    "main.css": "/2022-portfolio/static/css/main.b513c543.css",
+    "main.js": "/2022-portfolio/static/js/main.2e981b91.js",
+    "static/media/bg.jpg": "/2022-portfolio/static/media/bg.ec2a56ba35de88d157e6.jpg",
+    "static/media/laptop.jpg": "/2022-portfolio/static/media/laptop.7e919365a063c98c01f4.jpg",
+    "static/media/marvel.jpg": "/2022-portfolio/static/media/marvel.50f94b969d2043653585.jpg",
+    "static/media/pets.jpg": "/2022-portfolio/static/media/pets.d9191a70b370d6c2f80b.jpg",
+    "static/media/wanted-poster.png": "/2022-portfolio/static/media/wanted-poster.a9a0cba72514fcabdb75.png",
+    "static/media/me-re.png": "/2022-portfolio/static/media/me-re.584e2b13fb27981407cf.png",
+    "static/media/car.jpg": "/2022-portfolio/static/media/car.e03893d71552d32974d8.jpg",
+    "static/media/post.png": "/2022-portfolio/static/media/post.0e766346be57e7a9e0ef.png",
+    "static/media/eyeglass.png": "/2022-portfolio/static/media/eyeglass.e39f37d338e769b96ae5.png",
+    "index.html": "/2022-portfolio/index.html",
+    "main.b513c543.css.map": "/2022-portfolio/static/css/main.b513c543.css.map",
+    "main.2e981b91.js.map": "/2022-portfolio/static/js/main.2e981b91.js.map"
   },
   "entrypoints": [
-    "static/css/main.65711e65.css",
-    "static/js/main.f07a2ad1.js"
+    "static/css/main.b513c543.css",
+    "static/js/main.2e981b91.js"
   ]
 }
